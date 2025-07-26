@@ -33,4 +33,4 @@ def atualizar_grafico(cidade_selecionada):
     fig = px.bar(df_filtrado, x="Mês", y="Vendas", title=f"Vendas em {cidade_selecionada}")
     return fig
 
-app.run(port=8050, debug=True)
+app.run(port=8052, debug=True)
